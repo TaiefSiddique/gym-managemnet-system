@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "dist/app.js",
   "scripts": {
-    "start": "node dist/app.js",
+    "start": "node dist/app.ts",
     "dev": "ts-node src/app.ts",
     "build": "npm install && npx tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
