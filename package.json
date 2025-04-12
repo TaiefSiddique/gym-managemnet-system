@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "main": "dist/app.js",
   "scripts": {
-    "start": "node dist/app.ts",
+    "start": "node dist/app.js",
     "dev": "ts-node src/app.ts",
-    "build": "npm install && npx tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx tsc",
+    "vercel-build": "npm install && npx tsc"
   },
   "keywords": [],
   "author": "",
