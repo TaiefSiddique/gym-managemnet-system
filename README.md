@@ -113,13 +113,13 @@ interface ISchedule {
 
 1.  Use this curl command to create your first admin:
 
-curl -X POST https://gym-managemnet-system-z4d7.vercel.app/api/users\
+curl -X POST https://gym-managemnet-system-z4d7.vercel.app/api/users
   -H "Content-Type: application/json"\
   -d '{"name":"Admin","email":"admin@gym.com","password":"admin123","role":"admin"}'
 
 1.  Then login to get your JWT token:
 
-curl -X POST https://gym-managemnet-system-z4d7.vercel.app/api/users/login\
+curl -X POST https://gym-managemnet-system-z4d7.vercel.app/api/users/login
   -H "Content-Type: application/json"\
   -d '{"email":"admin@gym.com","password":"admin123"}'
 
