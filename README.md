@@ -24,6 +24,7 @@ The system enforces important business rules:
 ### Relationships
 - One Trainer (User) ➔ Many Schedules
 - Many Trainees (Users) ➔ Many Schedules (through bookings)
+![Relation Image](https://i.postimg.cc/6537pBRr/Screenshot-1513.png)
 
 ---
 
@@ -70,6 +71,7 @@ The system enforces important business rules:
 ---
 # **Database Schema**
 -------------------
+![Database Image](https://i.postimg.cc/k58RPwSL/Screenshot-1512.png)
 
 ### **User Model**
 
