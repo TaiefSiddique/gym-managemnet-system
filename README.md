@@ -15,7 +15,7 @@ The system enforces important business rules:
 ---
 
 ## Relation Diagram
-![Database Schema Diagram](https://i.imgur.com/example.png)
+![Database Schema Diagram](https://i.postimg.cc/6537pBRr/Screenshot-1513.png)
 
 ### Entities
 - **User**: Stores all user information (name, email, password, role).
@@ -24,7 +24,7 @@ The system enforces important business rules:
 ### Relationships
 - One Trainer (User) ➔ Many Schedules
 - Many Trainees (Users) ➔ Many Schedules (through bookings)
-![Relation Image](https://i.postimg.cc/6537pBRr/Screenshot-1513.png)
+
 
 ---
 
