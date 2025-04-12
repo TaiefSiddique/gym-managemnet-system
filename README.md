@@ -36,7 +36,8 @@ The system enforces important business rules:
 - **Environment**: Node.js runtime
 
 ---
-
+## API Documentation
+https://docs.google.com/document/d/1tikS9iSaXbF4g9Z7EOHI4xQZXcISxNG0/edit?usp=sharing&ouid=108395270376658677889&rtpof=true&sd=true
 ## API Endpoints
 
 ### Authentication
