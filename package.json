@@ -5,8 +5,8 @@
   "scripts": {
     "start": "node dist/app.js",
     "dev": "ts-node src/app.ts",
-    "build": "npx tsc",
-    "vercel-build": "npm install && npx tsc"
+    "build": "tsc",
+    "postinstall": "npm run build"
   },
   "keywords": [],
   "author": "",
